@@ -1,14 +1,14 @@
 public class Algoritmo {
-private String nomeAlgoritmo;
+private String nome;
 private Parametros[] paramentros;
 
-public Algoritmo(String nomeAlgoritmo, float qtdParametros){
+public Algoritmo(String nome, float qtdParametros){
 	parametros = new Parametros[3]
-	this.nomeAlgoritmo = nomeAlgoritmo;
+	this.nome = nome;
 	
 	}
-	public String getNomeAlgoritmo(){
-		return this.nomeAlgoritmo;
+	public String getNome(){
+		return this.nome;
 	}
 	public void preencheParametros(){
 		float parametros;
