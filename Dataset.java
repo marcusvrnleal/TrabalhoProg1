@@ -2,13 +2,13 @@ public class Dataset {
     private int numExemplos;
     private int numAtributos;
     private int numClasses;
-    private String nomeDataset;
+    private String nome;
 
-    public Dataset(int nExemplos, int nAtributos, int nClasses, String nomeDataset) {
+    public Dataset(int nExemplos, int nAtributos, int nClasses, String nome) {
         this.numExemplos = nExemplos;
         this.numAtributos = nAtributos;
         this.numClasses = nClasses;
-        this.nomeDataset = nomeDataset;
+        this.nome = nome;
     }
 
     public int getNumExemplo() {
@@ -23,7 +23,7 @@ public class Dataset {
         return this.numClasses;
     }
 
-    public String getNomeDataset() {
-        return this.nomeDataset;
+    public String getNome() {
+        return this.nome;
     }
 }
